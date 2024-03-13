@@ -1,1 +1,10 @@
 <h1>Hi, hello :)</h1>
+<p>Weather forecast test</p>
+<p> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ </p>
+<div *ngFor="let forecast of forecast"> 
+  <p> Date: {{ forecast.date }} </p> 
+  <p> Temperature (C): {{ forecast.temperatureC }} </p> 
+  <p> Temperature (F): {{ forecast.temperatureF }} </p> 
+  <p> Summary: {{ forecast.summary }} </p> 
+  <p> ---------------------------------------------------- </p>
+</div>
